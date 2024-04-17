@@ -1,0 +1,99 @@
+body {
+    background-color: #00acfc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 100px;
+}
+.container {
+    background-size: cover;
+    max-width: auto;
+    margin: 10px 25px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color:#000000;
+    display:flex;
+    text-align:center;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+.tabs {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.tabs li {
+    margin: 0 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.tabs li:hover {
+    color: #FFD700;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1900fc;
+    min-width: 160px;
+    z-index: 1;
+    padding: 5px 0;
+    left: 0;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: #ffffff;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #00acfc;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.section img {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 10px;
+    align-items: center;
+}
+.section-text {
+    max-width: 50%;
+    margin-right: 50px;
+}
+.section-text h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin: 25px;
+}
+.section-text p {
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin: 10px;
+    
+}
