@@ -1,21 +1,23 @@
-body {
+html, body {
     background-color: #00acfc;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
     text-align: left;
 }
-.header {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 10px 100px;
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
 }
+
 .container {
-    background-size: cover;
     max-width: auto;
+    display: flex;
     margin: 10px 25px;
     padding: 10px 50px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -66,13 +68,43 @@ body {
 .dropdown-content a:hover {
     background-color: #00acfc;
 }
-.section {
+
+.sectionbackground{
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-image:url("glowing-contact-us-logo-qx58564q7a51etk6.jpg") ;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    padding: 50px 0;
+    margin: 50px;
+    margin-left: 0px;
+    padding: 250px;
+    width: 100%;
 }
+
+.section {
+    color:#000000;
+    background-image: url("water-366586_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 100px;
+}
+
+.sectionserviços {
+    background-color: #00acfc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    margin-left: 0px;
+    padding: 170px;
+    width: auto;
+}
+
 .section img {
     display: flex;
     flex-direction: column;
@@ -83,17 +115,19 @@ body {
     align-items: center;
 }
 .section-text {
+    font-family: Arial, sans-serif;
     max-width: 50%;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 .section-text h2 {
+    font-family: Arial, sans-serif;
     font-size: 24px;
     margin-bottom: 5px;
     margin: 25px;
 }
 .section-text p {
+    font-family: Arial, sans-serif;
     font-size: 16px;
     margin-bottom: 0px;
     margin: 10px;
-    
 }
