@@ -84,6 +84,7 @@ body{
 
 .section {
     color:#000000;
+    border-color: aliceblue;
     background-image: url("water-366586_640.jpg");
     background-repeat: no-repeat;
     background-size: cover;
