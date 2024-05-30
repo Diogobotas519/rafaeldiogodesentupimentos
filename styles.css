@@ -92,6 +92,18 @@ body{
     align-items: center;
     margin: 0px;
     padding: 100px;
+
+    position: relative;
+    isolation: isolate;
+}
+
+.section::after{
+    content:'' ;
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: rgb(65, 203, 245);
+    opacity: 0.5;
 }
 
 .sectionserviços {
